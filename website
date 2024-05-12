@@ -1,0 +1,74 @@
+<header class="hero-section">
+    <div class="content">
+        <img src="img/light-logo.png" class="logo" alt="">
+        <p class="sub-heading">best fashion collection of all time</p>
+    </div>
+</header>
+@import 'nav.css';
+
+.hero-section{
+    width: 100%;
+    height: calc(100vh - 120px);
+    background-image: url('../img/header.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section .logo{
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+
+.hero-section .sub-heading{
+    margin-top: 10px;
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 300;
+}
+<button class="pre-btn"><img src="img/arrow.png" alt=""></button>
+<button class="nxt-btn"><img src="img/arrow.png" alt=""></button>
+.pre-btn, .nxt-btn{
+    border: none;
+    width: 10vw;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+    cursor: pointer;
+    z-index: 8;
+}
+
+.pre-btn{
+    left: 0;
+    transform: rotate(180deg);
+}
+
+.nxt-btn{
+    right: 0;
+}
+
+.pre-btn img, .nxt-btn img{
+    opacity: 0.2;
+<footer>
+    <p class="footer-title">about company</p>
+    <p class="info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat tempore ad suscipit, eos eius quisquam sed optio nisi quaerat fugiat ratione et vero maxime praesentium, architecto minima reiciendis iste quo deserunt assumenda alias ducimus. Ullam odit maxime id voluptates rerum tenetur corporis laboriosam! Cum error ipsum laborum tempore in rerum necessitatibus nostrum nobis modi! Debitis adipisci iure voluptatibus quisquam quae, quod, repellat, voluptate quia temporibus eius.</p>
+    <div class="footer-social-container">
+        <a href="#" class="social-link">facebook</a>
+        <a href="#" class="social-link">twitter</a>
+        <a href="#" class="social-link">instagram</a>
+        <a href="#" class="social-link">linkedin</a>
+    </div>
+    <p class
+}
+
+.pre-btn:hover img, .nxt-btn:hover img{
+    opacity: 1;
+}
